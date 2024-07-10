@@ -1,3 +1,4 @@
+**NOTE: The Infrastructure provisioning and manually deploying with the application is complete, I further plan to integrate Gitops workflow with ArgoCD to deploy this application.**
 INSTRUCTIONS: 
 **INFRASTRUCTURE PROVISIONING**
 -  Terraform init
@@ -23,7 +24,7 @@ echo $INGRESS_PUBLIC_IP
 -  Access your Application with the FRONTEND_PUBLIC_FQDN!
 
   -
-**NOTE: The Infrastructure provisioning and manually deploying with the script part is complete, I further plan to integrate Gitops workflow with ArgoCD to deploy this application.**
+
 - For demo purposes, the DB user name and password are hardcoded, in an ideal scenario, you should use the recommended practices like ENV Variables, hashicorp vault or cloud-specific encryption mechanisms.
 
 ![image](https://github.com/dv-sharma/Terraform_3TierApp_EKS/assets/65087388/52bdf786-7a3c-436c-b6a3-0d10fffbf0bd)
