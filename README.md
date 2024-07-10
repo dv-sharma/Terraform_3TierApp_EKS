@@ -11,8 +11,8 @@ INSTRUCTIONS:
 
   It will take between 15-20 minutes for the VPC and EKS cluster to provision.
 
-**  APPLICATION DEPLOYMENT STEPS**
-**UPDATE YOUR KUBECONFIG**
+**APPLICATION DEPLOYMENT STEPS**
+_UPDATE YOUR KUBECONFIG_
 - aws eks update-kubeconfig --region us-east-2 --name staging-demo
 - kubectl create ns trading
 - kubectl config set-context --current --namespace=trading
