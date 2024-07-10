@@ -27,7 +27,7 @@ spec:
         imagePullPolicy: Always
         env:
           - name: REACT_APP_APIHOSTPORT
-            value: trading.api.3.140.25.62.nip.io
+            value: API_PUBLIC_FQDN
         ports:
         - containerPort: 8080
 ---
@@ -56,7 +56,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: trading.frontend.3.140.25.62.nip.io
+    - host: trading.frontend.$INGRESS_PUBLIC_IP.nip.io
       http:
         paths:
           - path: /
