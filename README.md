@@ -1,4 +1,8 @@
 **NOTE: The Infrastructure provisioning and manually deploying with the application is complete, I further plan to integrate Gitops workflow with ArgoCD to deploy this application.**
+Microservices Stock Application API CODE: https://github.com/cloudacademy/stocks-app
+Microservices Stock Application
+
+
 INSTRUCTIONS: 
 **INFRASTRUCTURE PROVISIONING**
 -  Terraform init
@@ -23,7 +27,6 @@ echo $INGRESS_PUBLIC_IP
 
 -  Access your Application with the FRONTEND_PUBLIC_FQDN!
 
-  -
 
 - For demo purposes, the DB user name and password are hardcoded, in an ideal scenario, you should use the recommended practices like ENV Variables, hashicorp vault or cloud-specific encryption mechanisms.
 
