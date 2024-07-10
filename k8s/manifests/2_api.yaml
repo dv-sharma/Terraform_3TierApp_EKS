@@ -60,7 +60,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: trading.api.3.140.25.62.nip.io
+    - host: API_PUBLIC_FQDN
       http:
         paths:
           - path: /
